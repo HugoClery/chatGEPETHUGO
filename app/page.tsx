@@ -79,7 +79,7 @@ export default function Home() {
     };
 
     return (
-      <main className="m-auto max-w-xl flex flex-col px-2 py-8 hcontent-full">
+      <main className="m-auto max-w-xl flex flex-col px-2 py-8 h-full">
           <div className="flex-1 flex flex-col gap-4 overflow-auto">
               <h1 className="text-3xl md:text-5xl font-bold text-center">ChatGEPETHUGO</h1>
               <ul ref={ref} className="flex flex-col flex-1">

@@ -17,7 +17,7 @@ export const Message = ({ message }: MessageProps) => {
     return (
         <li
             className={clsx('w-full flex gap-4 p-4', {
-                'bg-gray-700': isUser,
+                'bg-grey-500': isUser,
             })}
         >
             <div className="w-12 h-12">
